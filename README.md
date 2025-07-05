@@ -1,13 +1,7 @@
-# Sample Hardhat Project
+# HomeTask3
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a Hardhat Ignition module that deploys that contract.
-
-Try running some of the following tasks:
-
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat ignition deploy ./ignition/modules/Lock.ts
+Настройте окружение для использования Hardhat. Изучите основные функции и возможности этого инструмента.
+Напишите простой контракт на Solidity, который бы использовал storage, memory, stack и calldata, чтобы продемонстрировать различия в их работе и стоимости.
+Проанализируйте и оптимизируйте ваш контракт, написанный в пункте 2, с целью минимизации использования газа. Замерьте и сравните результаты до и после оптимизации.
+Напишите набор unit тестов для вашего оптимизированного контракта с использованием фреймворка Hardhat.
 ```
